@@ -1,18 +1,17 @@
 public class Lesson2 {
     static void main(String [] args) {
-       checkSumSing();
+       printColor();
        }
-
-    static void checkSumSing() {
-        int a = 1;
-        int b = 2;
-        int sum = a + b;
-        if (sum >= 0) {
-            System.out.println("Сумма положительная");
+    static void printColor() {
+        int value = 5;
+        if (value < 0) {
+            System.out.println("Красный");
+        }
+        else if (value > 0 && value < 100) {
+            System.out.println("Желтый");
         }
         else {
-            System.out.println("Сумма отрицательная");
+            System.out.println("Зеленый");
         }
-
     }
 }
