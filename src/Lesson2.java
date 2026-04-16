@@ -1,10 +1,15 @@
 public class Lesson2 {
     public static void main(String[] args) {
-        printTherWorld();
+        checkSumSing();
     }
-    public static void printTherWorld() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+    public static void checkSumSing() {
+        int a = 1;
+        int b = 2;
+        int sum = a + b;
+        if (sum >= 0) {
+            System.out.println("Сумма положительная");
+        } else {
+            System.out.println("Сумма отрицательная");
+        }
     }
 }
