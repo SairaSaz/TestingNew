@@ -1,15 +1,10 @@
 public class Lesson2 {
     public static void main(String[] args) {
-        compareNumbers();
+        printTherWorld();
     }
-    public static void compareNumbers() {
-        int a = 4;
-        int b = 3;
-        if (a >= b){
-            System.out.println("a >= b");
-        }
-        else {
-        System.out.println("a < b");
-    }
+    public static void printTherWorld() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
 }
