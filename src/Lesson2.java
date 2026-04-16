@@ -1,17 +1,13 @@
 public class Lesson2 {
     public static void main(String[] args) {
-        isSumInRange10To20();
+        printPositiveOrNegative();
     }
-    public static void isSumInRange10To20() {
-        int a = 12;
-        int b = 2;
-        int sum = a + b;
-        if (sum >10 && sum < 20) {
-            System.out.println("true");
+    public static void printPositiveOrNegative() {
+        int a = 5;
+        if (a >=0) {
+            System.out.println("Положительное число");
+        } else {
+            System.out.println("Отрицательное число");
         }
-        else {
-            System.out.println("false");
-        }
-
     }
 }
