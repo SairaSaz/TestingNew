@@ -1,17 +1,15 @@
 public class Lesson2 {
-    static void main(String [] args) {
-       printColor();
-       }
-    static void printColor() {
-        int value = 5;
-        if (value < 0) {
-            System.out.println("Красный");
-        }
-        else if (value > 0 && value < 100) {
-            System.out.println("Желтый");
+    public static void main(String[] args) {
+        compareNumbers();
+    }
+    public static void compareNumbers() {
+        int a = 4;
+        int b = 3;
+        if (a >= b){
+            System.out.println("a >= b");
         }
         else {
-            System.out.println("Зеленый");
-        }
+        System.out.println("a < b");
+    }
     }
 }
