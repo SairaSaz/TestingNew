@@ -2,7 +2,7 @@ public class Task2_2 {
     public static void main(String [] args) {
     printColor();
 }
-    static void printColor() {
+    public  static void printColor() {
         int value = 5;
         if (value < 0) {
             System.out.println("Красный");
