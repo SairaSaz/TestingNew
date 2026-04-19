@@ -20,6 +20,7 @@ public class Lesson3_2 {
             System.out.println ("Country of origin: " + productsArray[i].countryOfOrigin);
             System.out.println ("Booked: " + productsArray[i].booked);
             System.out.println ("-----------------");
+
         }
     }
 }
