@@ -4,19 +4,19 @@ public class Product {
     public String manufacturer;
     public String countryOfOrigin;
     public int price;
-    public String bookingStatus;
+    public boolean booked;
 
     public Product(String name,
                    String productionData,
                    String manufacturer,
                    int price,
                    String countryOfOrigin,
-                   String bookingStatus){
+                   boolean booked){
         this.name = name;
         this.productionData = productionData;
         this.manufacturer = manufacturer;
         this.countryOfOrigin = countryOfOrigin;
         this.price = price;
-        this.bookingStatus = bookingStatus;
+        this.booked = booked;
     }
 }
