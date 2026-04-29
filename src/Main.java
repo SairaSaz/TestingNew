@@ -42,9 +42,9 @@ public class Main {
             int result = sumArrayElements(array);
             System.out.println("Сумма всех элементов: " + result);
         } catch (MyArraySizeException e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getText());
         } catch (MyArrayDataException e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getText());
             System.out.println("Строка: " + e.getRow() + ", Столбец: " + e.getColumn());
             System.out.println("Значение: " + e.getValue());
         }

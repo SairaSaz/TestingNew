@@ -1,6 +1,11 @@
 public class MyArraySizeException extends Exception {
+    private String text;
     public MyArraySizeException(String text) {
         super(text);
+        this.text = text;
+    }
+    public String getText() {  // добавляем метод
+        return text;
     }
 }
 class MyArrayDataException extends Exception {
@@ -26,5 +31,9 @@ class MyArrayDataException extends Exception {
 
     public String getValue() {
         return value;
+    }
+
+    public String getText() {
+        return super.getMessage();
     }
 }
